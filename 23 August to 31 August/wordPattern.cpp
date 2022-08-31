@@ -13,7 +13,7 @@ public:
         map<char,string> m;
         vector<string> words;
         string temp = "";
-        for(int i=0;i<s.size();i++){
+        for(int i=0;i<=s.size();i++){
             if(s[i]=='\0'){
                 words.push_back(temp);
                 break;
